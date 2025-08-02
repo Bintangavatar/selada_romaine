@@ -92,7 +92,7 @@ elif menu == "📊 Tentang":
     - **Defisiensi Nutrisi**: Gabungan masing-masing 40 citra dari folder N, P, dan K (total 120)
     
     Preprocessing data menggunakan Data Latih dan Validasi, rincian sebagai berikut:
-    - **Training** = 224,224 
+    - **Training** = 70% 
     - **Validasi** = 30% 
     """)
 
