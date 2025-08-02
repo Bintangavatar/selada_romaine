@@ -91,11 +91,9 @@ elif menu == "📊 Tentang":
     - **Full Nutrisi**: 110 citra observasi + 10 dari folder FN (total 120)
     - **Defisiensi Nutrisi**: Gabungan masing-masing 40 citra dari folder N, P, dan K (total 120)
     
-    Preprocessing data menggunakan Cross Validation dengan teknik Random Search, rincian sebagai berikut:
-    - **Img_size** = 224,224 
-    - **Batch_size** = 32 
-    - **Epoch** = 20 
-    - **Split Fold** = 5
+    Preprocessing data menggunakan Data Latih dan Validasi, rincian sebagai berikut:
+    - **Training** = 224,224 
+    - **Validasi** = 30% 
     """)
 
 # ===============================
