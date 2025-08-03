@@ -111,9 +111,6 @@ elif menu == "🧪 Sistem Diagnosis":
         if uploaded_file is not None:
             st.image(uploaded_file, caption="Gambar yang Diunggah", use_column_width=True)
 
-        else:
-            st.image(uploaded_file, caption="Gambar yang Diunggah", use_column_width=True)
-
             if st.button("🔍 Lakukan Prediksi", key="upload_button"):
                 if model is None:
                     st.warning("Model belum berhasil dimuat.")
