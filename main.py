@@ -109,6 +109,10 @@ elif menu == "🧪 Sistem Diagnosis":
     with tab1:
         uploaded_file = st.file_uploader("Unggah gambar daun selada romaine:", type=["jpg", "jpeg", "png"])
         if uploaded_file is not None:
+            # ✅ Validasi ukuran file (maksimal 2MB)
+        if uploaded_file.size > 2 * 1024 * 1024:  # 2MB dalam byte
+            st.error("❌ Ukuran file terlalu besar! Maksimal 2MB.")
+        else:
             st.image(uploaded_file, caption="Gambar yang Diunggah", use_column_width=True)
 
             if st.button("🔍 Lakukan Prediksi", key="upload_button"):
