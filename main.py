@@ -88,8 +88,8 @@ elif menu == "📊 Tentang":
     st.markdown("""
     Dataset dibagi menjadi dua kelas:
     
-    - **Full Nutrisi**: 110 citra observasi + 10 dari folder FN (total 120)
-    - **Defisiensi Nutrisi**: Gabungan masing-masing 40 citra dari folder N, P, dan K (total 120)
+    - **Full Nutrisi**: 914 citra dari daun full nutrisi (sehat)
+    - **Defisiensi Nutrisi**: 914 citra berisi kombinasi dari daun kekurangan nitrogen, posfor, dan kalium
     
     Preprocessing data menggunakan Data Latih dan Validasi, rincian sebagai berikut:
     - **Training** = 70% 
