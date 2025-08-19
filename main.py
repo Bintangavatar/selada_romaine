@@ -29,7 +29,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        model = tf.keras.models.load_model("97%_traintestval_2kls_mobilenet_augmentasicolab.h5")
+        model = tf.keras.models.load_model("99%_traintestval_2kls.h5")
         return model
     except Exception as e:
         st.error(f"❌ Gagal memuat model: {e}")
