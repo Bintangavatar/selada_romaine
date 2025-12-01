@@ -92,8 +92,9 @@ elif menu == "📊 Tentang":
     - **Defisiensi Nutrisi**: 914 citra berisi kombinasi dari daun kekurangan nitrogen, posfor, dan kalium
     
     Preprocessing data menggunakan Data Latih dan Validasi, rincian sebagai berikut:
-    - **Training** = 80% 
-    - **Validasi** = 20% 
+    - **Training** = 60% 
+    - **Validasi** = 30%
+    - **Uji** = 10%
     """)
 
 # ===============================
